@@ -1,6 +1,6 @@
 {
   "name": "bankdatencheck",
-  "description": "Library for interacting with 'www.bankdatencheck.de'.",
+  "description": "A node library for interacting with 'www.bankdatencheck.de'.",
   "version": "0.1.0",
   "directories": {
     "lib": "./lib"
@@ -12,6 +12,7 @@
     "url": "https://github.com/Klab-Berlin/node-bankdatencheck"
   },
   "dependencies": {
+    "xml2js": "latest"
   },
   "devDependencies": {
   }
