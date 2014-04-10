@@ -10,7 +10,7 @@ npm install bankdatencheck
 
 ## Usage
 ```js
-var Bankdatencheck = require('../lib/bankdatencheck').Bankdatencheck;
+var Bankdatencheck = require('bankdatencheck');
 
 var bankdatencheck = new Bankdatencheck();
 bankdatencheck.checkAccount('7876543100', '33080030', function(err, result) {
